@@ -10,6 +10,34 @@ npx skills add humanlayer/skills --skill SKILLNAME
 
 ## Available Skills
 
+### show-me
+
+Explains the current topic with concise diagrams, code-shape sketches, and focused HTML artifacts.
+
+```bash
+npx skills add humanlayer/skills --skill show-me
+```
+
+Then invoke:
+
+```
+/show-me
+```
+
+### visual-pr
+
+Creates or updates a pull request with a concise visual outline that helps reviewers understand the change.
+
+```bash
+npx skills add humanlayer/skills --skill visual-pr
+```
+
+Then invoke:
+
+```
+/visual-pr
+```
+
 ### improve-claude-md
 
 Rewrites your CLAUDE.md using `<important if>` blocks to improve instruction adherence.
@@ -64,18 +92,4 @@ Then in your project:
 
 ```
 /design-control-loop
-```
-
-### show-me
-
-Explains the current topic with concise diagrams, code-shape sketches, and focused HTML artifacts.
-
-```bash
-npx skills add humanlayer/skills --skill show-me
-```
-
-Then invoke:
-
-```
-/show-me
 ```
